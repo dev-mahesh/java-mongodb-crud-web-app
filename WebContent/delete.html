@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="http://getbootstrap.com/favicon.ico">
+
+    <title>Mongo-Java Project - Find Data</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/jumbotron-narrow.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation" class="active"><a href="index.html">Home</a></li>
+            
+          </ul>
+        </nav>
+        <h3 class="text-muted">Mongo-Java-Project</h3>
+      </div>
+      <form class="form-horizontal">
+      		<div class="form-group">
+			    <label for="rollno" class="col-sm-2 control-label">Roll No</label>
+			    <div class="col-sm-7">
+			      <input type="text" class="form-control" id="rollno" placeholder="Enter Roll No">
+			    </div>
+			    <div class="col-sm-3">
+			    	<button class="btn btn-primary" type="button" id="btndelete">Delete</button>
+			    </div>
+		  </div>
+      </form>
+
+		<table class="table table-bordered" id="tblstudent">
+			<th>ID</th>
+			<th>Name</th>
+			<th>Department</th>
+			<th>Sub 1</th>
+			<th>Sub 2</th>
+			<th>Sub 3</th>
+		</table>	
+
+      <footer class="footer">
+        <p>© 2016 Company, Inc.</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/find.js"></script>
+    <script type="text/javascript" src="js/delete.js"></script>
+
+</body></html>
